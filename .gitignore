@@ -1,0 +1,47 @@
+# Python stuff
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+venv/
+.venv/
+
+# Django stuff
+*.sqlite3
+db.sqlite3
+/media/
+staticfiles/
+
+# Environment variables
+.env
+*.env
+
+# VSCode settings (optional, if you use VSCode)
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker stuff
+*.pid
+docker-compose.override.yml
+
+# Logs
+*.log
+
+# Migrations (optional)
+# Uncomment if you don't want to track migration files
+# **/migrations/*.py
+# **/migrations/*.pyc
+# BUT usually you DO commit migrations!
+
+# Celery beat schedule (if you use periodic tasks)
+celerybeat-schedule
+
+# coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+.venv/
