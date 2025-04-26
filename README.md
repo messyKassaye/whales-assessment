@@ -13,7 +13,7 @@ This project is a simple Todo application API built using:
 ### 1. Clone the project
 
 ```bash
-git clone https://github.com/yourusername/todoapi.git
+git clone https://github.com/messyKassaye/whales-assessment.git
 cd todoapi
 ```
 
