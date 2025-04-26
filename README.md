@@ -96,7 +96,7 @@ docker-compose up --build
 
 ### Background Email Reminders
 ### Celery runs a periodic task.
-
+- celery background reminder using email found under /tasks/tasks.py
 - It checks for tasks with a deadline within the next 24 hours.
 
 - It sends an email reminder to the task owner.
