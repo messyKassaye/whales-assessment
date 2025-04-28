@@ -51,7 +51,7 @@ docker-compose up --build
 }
 ```
 
-- Login (get access and refresh tokens): http://localhost:8000/api/login
+- Login (get access and refresh tokens): http://localhost:8000/api/login/
 ```json
 {
   "username": "john",
